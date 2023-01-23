@@ -1,0 +1,164 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.App-github {
+  margin-left: 10px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.App-github > a {
+  color: #FFF;
+}
+
+.App-github > a:hover {
+  color: #DDD;
+}
+
+.App-user {
+  /* make it flex right */
+  margin-left: auto;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-user .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-flex;
+  background: #888;
+}
+
+.App-user .tenant-identifier {
+  display: inline-flex;
+}
+
+.App-tenant-selector {
+  margin-left: 20px;
+}
+
+.App-tenant-selector input {
+  padding: 4px;
+  border: 0;
+  width: 140px;
+}
+
+.App-embed-url {
+  margin-left: 20px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.App-embed-url input {
+  width: 80%;
+  padding: 4px;
+  border: 0;
+}
+
+.App-embed-url label {
+  display: inline-flex;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.App-embed-url input:disabled {
+  background: #FFF;
+  color: #888;
+  display: inline-flex;
+  justify-content: center;
+  align-items: left;
+}
+
+.App-tenant-selector button {
+  margin-left: 10px;
+  background-color: #61dafb;
+  color: #000;
+  border: 0;
+  padding: 4px 8px;
+  width: 120px;
+}
+
+.App-logo {
+  display: inline-flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100%;
+  pointer-events: none;
+}
+
+.App-title {
+  display: inline-flex;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: stretch;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+#dashboard-container {
+  width: 100%;
+}
+
+.loading { 
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading i {
+  margin: 0 10px;
+}
+
+.App-wrapper .loading i {
+  font-size: 48px;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
