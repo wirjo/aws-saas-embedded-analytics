@@ -8,6 +8,11 @@ For more information on embedded analytics, please see [blog post](https://aws.a
 
 ## Overview
 
+<p align="center">
+ <img style="display: block; margin: 0 auto;" src="https://github.com/wirjo/aws-saas-embedded-analytics/blob/main/demo.gif" /><br/>
+ <small>Demonstrative application showing embedded analytics for SaaS applications based on tenantId.</small>
+</p>
+
 This open-source repository is written in Node.js and powered by AWS Amplify, a framework to build modern full-stack applications on AWS. It contains extensible sample code for demonstrative purposes only and is **not** production-ready. 
 
 ### Application
